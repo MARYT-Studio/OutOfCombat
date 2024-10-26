@@ -56,7 +56,7 @@ public class OutOfCombat {
                 property.setShowInGui(false);
             }
 
-            LOGGER.info("No Mob Friendly Fire - configuration loaded.");
+            LOGGER.info("Out of Combat - configuration loaded.");
         } finally {
             config.save();
         }
